@@ -1,0 +1,94 @@
+/* Funcionalidad modo oscuro */
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+    }
+    
+    /* Ubicar el botón de modo oscuro */
+    .box {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+    color: black;
+    }
+    
+    /* Ponerle color de fondo a la pagina*/
+    body {
+    background-color: bisque;
+    }
+    
+    /* Ponerle color al encabezado */
+    header {
+    background-color: #1a7d8a;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+    }
+    
+    /* Dar forma al logo */
+    .logo {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    float: left;
+    margin-left: 20px;
+    animation: spin 8s infinite linear;
+    text-shadow: 2px 2px 10px rgba(2, 2, 2, 0.5);
+    }
+    
+    /* Rotar logo */
+    @keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    }
+    
+    
+    .box table {
+    border: 3px solid rgb(0, 12, 7);
+    }
+    
+    h2.contact-header {
+    background-color: aliceblue;
+    }
+    
+    body.dark-mode .dark-mode-label {
+    color: #fff;
+    }
+    
+    #searchButtonContainer {
+    float: right;
+    margin-right: 10px;
+    }
+    
+    #searchContainer{
+    float: right;
+    margin-top: 10px;
+    }
+    
+    #searchInput {
+    margin-right: 10px;
+    }
+    
+    .dark-mode-table {
+    border: 3px solid black; /* Borde negro por defecto */
+    }
+    .dark-mode .dark-mode-table {
+    border-color: white;  /* Cambiar el color del borde a blanco cuando se active el modo oscuro*/
+    }
+    /* Estilo de modo oscuro para la tabla de funciones */
+    .dark-mode .w3-table-all td {
+    color: black;
+    }
+    
+    /* Estilo de modo oscuro para el texto del encabezado de la tabla */
+    .dark-mode .w3-table-all th {
+    color: black;
+    }
